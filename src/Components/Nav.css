@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+@font-face {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lobster'), url(../../public/assets/fonts/Lobster.otf);
+  }
+a {
+    color: palevioletred;
+    text-decoration: none;
+    font-size: 1.75rem;
+}
+nav {
+    display: flex;
+    font-family: 'Lobster';
+    background-color: #FCD8D3;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+ul {
+    display: flex;
+    list-style: none;
+    
+}
+li {
+    display: flex;
+    align-items: center;
+    background-color: #9BE3D7;
+    border-radius: 1.25rem;
+    border: 0.1rem solid palevioletred;
+    padding: 0.75rem;
+    margin-left: 1rem;
+}
+li:hover {
+    background-color: #4287A7;
+}
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.75rem;
+}
